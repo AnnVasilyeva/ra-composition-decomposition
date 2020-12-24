@@ -1,0 +1,111 @@
+.App {
+  width: 1080px;
+  margin: 0 auto;
+
+}
+
+.header-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  margin-top: 8px;
+  color: #6c757d;
+}
+
+.news-item {
+  display: flex;
+  align-items: center;
+}
+
+.news-item-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.advertising {
+  align-self: center;
+}
+
+.exchangeRates-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.exchangeRates-item {
+  display: flex;
+}
+
+.exchangeRates-item div {
+  margin-right: 5px;
+}
+
+.exchangeRates-name {
+  font-weight: 700;
+}
+
+.changes {
+  margin-right: 0;
+  color: #6c757d;
+}
+
+.news-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.search-form {
+  display: flex;
+}
+
+.advertising-section {
+  margin-top: 20px;
+}
+
+.widget-list {
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+  column-count: 3;
+}
+
+.widget {
+  width: 270px;
+  margin-bottom: 30px;
+}
+
+.weather-info {
+  display: flex;
+  align-items: center;
+}
+
+.weather-info div {
+  margin-right: 10px;
+}
+
+.weather-time {
+  display: flex;
+  flex-direction: column;
+}
+
+.widget-tv-program span {
+  margin-right: 4px;
+}
+
+.tv-canal {
+  color: #6c757d;
+}
+
+.widget-tv span {
+  margin-right: 5px;
+}
+
+.widget-tv span:last-child,
+.weather-info div:last-child,
+.widget-tv-program span:last-child {
+  margin-right: 0;
+}
+
